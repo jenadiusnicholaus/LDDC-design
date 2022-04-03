@@ -1,3 +1,12 @@
+/* modify boostrap class */
+ .carousel-item p {
+    color: black;
+}
+
+.carousel-item h3 {
+    color: black;
+
+}
 
 body {
     top: 0;
@@ -69,10 +78,11 @@ nav .descktop-menu li {
 
 nav .descktop-menu li a {
  text-decoration: none;
+ color: green;
 }
 
 nav .descktop-menu li a:hover{
-    color: green;
+    color: #4B0082;
     text-decoration: 1px underline;  
 }
 
@@ -99,17 +109,80 @@ main {
 
 .main-content {
     width: 100%;
-  
-    padding: 2px;
-    /* background-color: red; */
+    padding-left: 12px;
     
 }
+
 .main-content img {
     height: 500px;
 }
-footer{
-    background-color: blueviolet;
+
+.section-header {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
+
+.section-header hr {
+    width: 40px;
+    border: 3px solid green;
+}
+
+.section-header hr:hover {
+    width: 40px;
+    border: 3px solid #4B0082;;
+}
+
+.about-us-card {
+    height: 400px;
+}
+
+.featurette img {
+    height: 320px;
+    
+}
+.section-patner{
+    /* padding-top: 24px; */
+}
+
+.our-patner {
+    height: 150px;
+    /* background-color: green; */
+    opacity: .6;
+    /* margin-top: 12px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid grey;
+    height: 70px;
+    padding: 10px;
+    background-color: #4B0082;
+    color: white;
+    font-size: large;
+}
+
+.active {
+    background-color: #4B0082;
+}
+
+footer {
+    padding-left: 104px;
+    padding-right: 104px;
+   background-color: #4B0082
+}
+
 
 @media screen and (max-width: 600px) {
 body {
