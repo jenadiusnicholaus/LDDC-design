@@ -1,0 +1,126 @@
+
+body {
+    top: 0;
+    margin: 0;
+    border: 0;
+    /* padding: 0 160px 0 160px; */
+    /* background-color: rgb(190, 190, 190); */
+    background-color: white;
+    
+}
+
+.main-container {
+    width: 100%;
+    /* height: 100vh; */
+  
+}
+
+header {
+    width: 100%;
+    top: 0;
+    height: auto; 
+    /* background-color: rgb(31, 16, 44);   */     
+}
+
+.bunner {
+    height: auto;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    bottom: 0;
+
+}
+
+.bunner img {
+    width: 100%;
+    height: 130px;
+    margin: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+nav {
+    margin-top: 0;
+    padding-top: 0;
+    height: 60px;
+ 
+}
+
+nav .descktop-menu {
+    height: 60px;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: blueviolet; 
+
+}
+
+nav .descktop-menu li {
+    margin-right: 18px;
+    list-style: none;
+    font-size: medium;
+    font-weight:  bold;
+}
+
+nav .descktop-menu li a {
+ text-decoration: none;
+}
+
+nav .descktop-menu li a:hover{
+    color: green;
+    text-decoration: 1px underline;  
+}
+
+main {
+    margin-top: 14px;
+    display: grid;
+    background-color:rgb(255, 255, 255);
+    grid-row-gap: 2px;
+    grid-template-columns: 1fr 3fr;
+}
+
+.side-cards {
+    width: 100%;
+    height: 200px;
+    /* padding: 2px */
+}
+
+.card {
+    height: 300px;
+    width: 98%;
+    /* background-color: aqua; */
+    margin-bottom: 12px;
+}
+
+.main-content {
+    width: 100%;
+  
+    padding: 2px;
+    /* background-color: red; */
+    
+}
+.main-content img {
+    height: 500px;
+}
+footer{
+    background-color: blueviolet;
+}
+
+@media screen and (max-width: 600px) {
+body {
+    padding: 0 2px 0 2px;   
+}
+
+nav .descktop-menu {
+    display: none;
+}
+    
+}
+
+
+
