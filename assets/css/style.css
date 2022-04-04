@@ -144,6 +144,16 @@ main {
     height: 400px;
 }
 
+/* .serice-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 4rem;
+    justify-content: center;
+    color: #4B0082 ;
+    
+} */
+
 .featurette img {
     height: 320px;
     
@@ -228,9 +238,13 @@ section:nth-child(odd) {background: rgb(241, 241, 241)}
 
 .contact-info-container {
 
- padding-top: 44px;
- padding-bottom: 24px;
+    padding-top: 44px;
+    padding-bottom: 24px;
  
+}
+
+#service-content {
+    display:none;
 }
 
 .contact-info div {
