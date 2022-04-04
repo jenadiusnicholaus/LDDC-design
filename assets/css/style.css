@@ -258,8 +258,8 @@ section:nth-child(odd) {background: rgb(241, 241, 241)}
 }
 
 .contact-info div:hover {
-    background-color:#4B0082;
-    color: #fff;
+    background-color:#4c008211;
+    color: green;
     font-weight: bold;
     /* font-size: 17px */
 }
