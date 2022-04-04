@@ -86,7 +86,7 @@ nav .descktop-menu li a {
 
 nav .descktop-menu li a:hover{
     color: #4B0082;
-    text-decoration: 1px underline;  
+    border-bottom: 2px solid #4B0082;
 }
 
 main {
@@ -132,12 +132,12 @@ main {
 
 .section-header hr {
     width: 40px;
-    border: 3px solid green;
+    border: 3px solid #4B0082;
 }
 
 .section-header hr:hover {
     width: 40px;
-    border: 3px solid #4B0082;;
+    border: 3px solid #4B0082;
 }
 
 .about-us-card {
@@ -178,6 +178,8 @@ main {
 
 nav .descktop-menu li a.active {
    color: #4B0082;
+   border-bottom: 2px solid #4B0082
+   
 }
 
 footer {
@@ -216,7 +218,11 @@ section:nth-child(odd) {background: rgb(241, 241, 241)}
     display: block;
 }
 
-#about-us-content, #contact-us-content {
+#about-us-content{
+    display: none;
+}
+
+#contact-us-content {
     display: none;
 }
 
