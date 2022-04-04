@@ -3,6 +3,9 @@
     color: black;
 }
 
+.divider{
+    padding: 39px 0;
+}
 .carousel-item h3 {
     color: black;
 
@@ -173,8 +176,8 @@ main {
     font-size: large;
 }
 
-.active {
-    background-color: #4B0082;
+nav .descktop-menu li a.active {
+   color: #4B0082;
 }
 
 footer {
@@ -206,6 +209,42 @@ footer p {
     color: #fff;
 
 }
+
+section:nth-child(odd) {background: rgb(241, 241, 241)}
+
+#home-content{
+    display: block;
+}
+
+#about-us-content, #contact-us-content {
+    display: none;
+}
+
+.contact-info-container {
+
+ padding-top: 44px;
+ padding-bottom: 24px;
+ 
+}
+
+.contact-info div {
+    border-radius: 10px;
+    padding: 12px;
+    display: grid;
+    margin-bottom: 1px;
+    grid-row-gap: 2px;
+    grid-template-columns: 1fr 7fr;
+
+}
+
+.contact-info div:hover {
+    background-color:#4B0082;
+    color: #fff;
+    font-weight: bold;
+    /* font-size: 17px */
+}
+
+
 
 
 
