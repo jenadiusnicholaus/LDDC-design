@@ -15,7 +15,7 @@
 .service-card {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  grid-gap: 4px;
+  grid-gap: 1px;
   flex-direction: row;
   flex-wrap: wrap;
   

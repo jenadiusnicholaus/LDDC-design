@@ -1,10 +1,19 @@
+body {
+    accent-color: green;
+}
+/* use the i  future i am going to use thiis in future */
+:root {
+    --main-bg-color: coral;
+  }
+
+
 /* modify boostrap class */
  .carousel-item p {
     color: black;
 }
 
 .divider{
-    padding: 39px 0;
+    padding: 19px 0;
 }
 .carousel-item h3 {
     color: black;
@@ -15,23 +24,19 @@ body {
     top: 0;
     margin: 0;
     border: 0;
-    /* padding: 0 160px 0 160px; */
-    /* background-color: rgb(190, 190, 190); */
     background-color: white;
     
 }
 
 .main-container {
     width: 100%;
-    /* height: 100vh; */
-  
+    
 }
 
 header {
     width: 100%;
     top: 0;
     height: auto; 
-    /* background-color: rgb(31, 16, 44);   */     
 }
 
 .bunner {
@@ -92,7 +97,7 @@ nav .descktop-menu li a:hover{
 main {
     margin-top: 14px;
     display: grid;
-    background-color:rgb(255, 255, 255);
+    /* background-color:rgb(215, 75, 75); */
     grid-row-gap: 2px;
     grid-template-columns: 1fr 3fr;
 }
@@ -114,6 +119,11 @@ main {
     width: 100%;
     padding-left: 12px;
     
+}
+
+.owl-carousel{
+ /* padding: 0; */
+ /* margin: auto; */
 }
 
 .main-content img {
@@ -144,22 +154,9 @@ main {
     height: 400px;
 }
 
-/* .serice-icon {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 4rem;
-    justify-content: center;
-    color: #4B0082 ;
-    
-} */
-
 .featurette img {
     height: 320px;
     
-}
-.section-patner{
-    /* padding-top: 24px; */
 }
 
 .our-patner {
@@ -264,20 +261,45 @@ section:nth-child(odd) {background: rgb(241, 241, 241)}
     /* font-size: 17px */
 }
 
+.main-service-card {
+    /* background-color: red; */
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
 
+    
+}
 
-
+.card-title:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 600px) {
 body {
     padding: 0 2px 0 2px;   
 }
 
+main {
+    margin-top: 14px;
+    display: flex;
+   flex-direction: column-reverse;
+   justify-content: space-between;
+}
+
 nav .descktop-menu {
     display: none;
 }
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    
+  }
     
 }
+
 
 
 
