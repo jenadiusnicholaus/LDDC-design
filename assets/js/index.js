@@ -12,9 +12,6 @@ document.getElementById('about').addEventListener('click', (event) => {
     document.getElementById('contact-us-content').style.display='none';
     document.getElementById('service-content').style.display='none';
     document.getElementById('event-content').style.display='none';
-
-
-
 });
 
 document.getElementById('contact').addEventListener('click', (event) => {
@@ -52,3 +49,14 @@ for(let i = 0; i < menuItems.length; i++ ){
         this.className += " active";
     })
 }
+
+const logoToggleClass = (element, toggleClass) => {
+    element.classList.toggle(toggleClass);
+  };
+  
+  document.querySelectorAll('.mobile-hamberger').forEach((hamburgIcon) => {
+    hamburgIcon.addEventListener('click', () => {
+      hamburgIcon.classList.toggle('open');
+    //   logoToggleClass(document.querySelector('.header'), 'solidheader');
+    });
+  });
